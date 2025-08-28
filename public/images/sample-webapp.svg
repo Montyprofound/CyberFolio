@@ -1,0 +1,53 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Burp Suite Window -->
+  <rect x="20" y="40" width="360" height="220" fill="#2d2d2d" stroke="#ff6b35" stroke-width="2" rx="5"/>
+  
+  <!-- Header -->
+  <rect x="20" y="40" width="360" height="30" fill="#ff6b35"/>
+  <text x="30" y="58" font-family="Arial" font-size="14" fill="#000" font-weight="bold">Burp Suite Professional - Web App Pentest</text>
+  
+  <!-- Tabs -->
+  <rect x="30" y="80" width="60" height="20" fill="#ff6b35"/>
+  <text x="35" y="93" font-family="Arial" font-size="10" fill="#000">Target</text>
+  <rect x="100" y="80" width="60" height="20" fill="#444"/>
+  <text x="105" y="93" font-family="Arial" font-size="10" fill="#fff">Proxy</text>
+  <rect x="170" y="80" width="60" height="20" fill="#444"/>
+  <text x="175" y="93" font-family="Arial" font-size="10" fill="#fff">Scanner</text>
+  
+  <!-- Main Content Area -->
+  <rect x="30" y="110" width="330" height="130" fill="#1a1a1a" stroke="#444"/>
+  
+  <!-- Vulnerability List -->
+  <text x="35" y="125" font-family="Arial" font-size="11" fill="#ff6b6b" font-weight="bold">High Severity Vulnerabilities Found:</text>
+  
+  <rect x="35" y="135" width="15" height="15" fill="#ff4757"/>
+  <text x="55" y="147" font-family="Arial" font-size="10" fill="#c9d1d9">SQL Injection in login form</text>
+  
+  <rect x="35" y="155" width="15" height="15" fill="#ff4757"/>
+  <text x="55" y="167" font-family="Arial" font-size="10" fill="#c9d1d9">Cross-Site Scripting (XSS) vulnerability</text>
+  
+  <rect x="35" y="175" width="15" height="15" fill="#ffa502"/>
+  <text x="55" y="187" font-family="Arial" font-size="10" fill="#c9d1d9">Insecure Direct Object Reference</text>
+  
+  <rect x="35" y="195" width="15" height="15" fill="#ffa502"/>
+  <text x="55" y="207" font-family="Arial" font-size="10" fill="#c9d1d9">Missing security headers</text>
+  
+  <text x="35" y="225" font-family="Arial" font-size="10" fill="#51cf66">Scan Progress: 87% Complete</text>
+  
+  <!-- Progress Bar -->
+  <rect x="35" y="230" width="200" height="8" fill="#444" rx="4"/>
+  <rect x="35" y="230" width="174" height="8" fill="#51cf66" rx="4"/>
+  
+  <!-- Title -->
+  <text x="200" y="20" font-family="Arial" font-size="16" fill="#ff6b35" text-anchor="middle" font-weight="bold">Web Application Penetration Testing</text>
+</svg>
